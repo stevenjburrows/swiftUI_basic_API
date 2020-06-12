@@ -15,6 +15,8 @@
 		B0BEFEAD2493917300ADE156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BEFEAB2493917300ADE156 /* LaunchScreen.storyboard */; };
 		B0BEFEB82493917400ADE156 /* superheros_socalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEFEB72493917400ADE156 /* superheros_socalTests.swift */; };
 		B0BEFEC32493917400ADE156 /* superheros_socalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEFEC22493917400ADE156 /* superheros_socalUITests.swift */; };
+		B0BEFED32493920000ADE156 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEFED22493920000ADE156 /* Profile.swift */; };
+		B0BEFED52493BE3000ADE156 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEFED42493BE3000ADE156 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B0BEFEBE2493917400ADE156 /* superheros_socalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superheros_socalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BEFEC22493917400ADE156 /* superheros_socalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superheros_socalUITests.swift; sourceTree = "<group>"; };
 		B0BEFEC42493917400ADE156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BEFED22493920000ADE156 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B0BEFED42493BE3000ADE156 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		B0BEFE942493916E00ADE156 = {
 			isa = PBXGroup;
 			children = (
+				B0BEFED22493920000ADE156 /* Profile.swift */,
 				B0BEFE9F2493916E00ADE156 /* superheros_socal */,
 				B0BEFEB62493917400ADE156 /* superheros_socalTests */,
 				B0BEFEC12493917400ADE156 /* superheros_socalUITests */,
@@ -102,6 +107,7 @@
 				B0BEFEA02493916E00ADE156 /* AppDelegate.swift */,
 				B0BEFEA22493916E00ADE156 /* SceneDelegate.swift */,
 				B0BEFEA42493916E00ADE156 /* ContentView.swift */,
+				B0BEFED42493BE3000ADE156 /* ProfileView.swift */,
 				B0BEFEA62493917300ADE156 /* Assets.xcassets */,
 				B0BEFEAB2493917300ADE156 /* LaunchScreen.storyboard */,
 				B0BEFEAE2493917300ADE156 /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BEFEA12493916E00ADE156 /* AppDelegate.swift in Sources */,
+				B0BEFED32493920000ADE156 /* Profile.swift in Sources */,
+				B0BEFED52493BE3000ADE156 /* ProfileView.swift in Sources */,
 				B0BEFEA32493916E00ADE156 /* SceneDelegate.swift in Sources */,
 				B0BEFEA52493916E00ADE156 /* ContentView.swift in Sources */,
 			);

@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Profile: Decodable, Hashable{
+    var userName: String
+    var age: Int
+    var profilePhotoURL: URL
+    var bio: String
+}
+
+
